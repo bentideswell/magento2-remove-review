@@ -2,7 +2,7 @@
     "name": "fishpig/magento2-remove-review",
     "description": "Remove Review.",
     "type": "project",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Magento\\Review\\": "Mock/Magento/Review"
@@ -11,7 +11,6 @@
     "replace": {
         "magento/module-review-analytics": "*",
         "magento/module-review-graph-ql": "*",
-        "magento/module-re-captcha-review": "*",
         "magento/module-review": "*"
     }
 }
